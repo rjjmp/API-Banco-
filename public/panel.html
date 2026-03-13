@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Panel Bancos</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+<div class="panel">
+
+<h2>Datos de Bancos</h2>
+
+<button onclick="cargar()">Mostrar Bancos</button>
+
+<pre id="datos"></pre>
+
+</div>
+
+<script>
+
+async function cargar(){
+
+const token = localStorage.getItem("token");
+
+const respuesta = await fetch("/api/v2/banco",{
+headers:{
+"x-api-key":"123456",
+"Authorization":"Bearer "+token
+}
+});
+
+const data = await respuesta.json();
+
+document.getElementById("datos").innerText=
+JSON.stringify(data,null,2);
+
+}
+
+</script>
+
+</body>
+</html>

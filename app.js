@@ -5,6 +5,7 @@ const bancoV1 = require("./routes/v1/banco");
 const bancoV2 = require("./routes/v2/banco");
 
 app.use(express.json());
+app.use(express.static("public"));
 
 // VERSION 1
 app.use("/api/v1/banco", bancoV1);

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Login API Banco</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+<div class="login-box">
+
+<h2>API BANCO</h2>
+
+<input type="text" id="usuario" placeholder="Ingrese su usuario">
+
+<button onclick="login()">Entrar</button>
+
+<p id="mensaje"></p>
+
+</div>
+
+<script>
+
+async function login(){
+
+const usuario = document.getElementById("usuario").value;
+
+const respuesta = await fetch("/api/v2/banco/login",{
+method:"POST",
+headers:{
+"Content-Type":"application/json",
+"x-api-key":"123456"
+},
+body: JSON.stringify({usuario:usuario})
+});
+
+const data = await respuesta.json();
+
+if(data.token){
+
+localStorage.setItem("token",data.token);
+
+window.location="panel.html";
+
+}else{
+
+document.getElementById("mensaje").innerText="Error al iniciar sesión";
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
