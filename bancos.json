@@ -1,0 +1,217 @@
+[
+  {
+    "id": 1,
+    "nombre": "Banco Popular",
+    "personas": [
+      {
+        "id": 101,
+        "nombre": "Rafael Jesus",
+        "Apellido": "Sanches",
+        "Cuenta": "201547879",
+        "Telefono": "809-123-4567"
+      },
+      {
+        "id": 102,
+        "nombre": "Maria",
+        "Apellido": "Lopez",
+        "Cuenta": "201548800",
+        "Telefono": "809-555-1212"
+      },
+      {
+        "id": 103,
+        "nombre": "Mariano",
+        "Apellido": "Rodriguez",
+        "Cuenta": "1237879879",
+        "Telefono": "809-555-1332"
+      },
+      {
+        "id": 104,
+        "nombre": "Katerine",
+        "Apellido": "Santiago",
+        "Cuenta": "89898497957",
+        "Telefono": "809-595-1254"
+      },
+      {
+        "id": 105,
+        "nombre": "Camilo",
+        "Apellido": "Venite",
+        "Cuenta": "89080830982",
+        "Telefono": "829-575-8998"
+      },
+      {
+        "id": 1773325607221
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Banreservas",
+    "personas": [
+      {
+        "id": 201,
+        "nombre": "Juan",
+        "Apellido": "Perez",
+        "Cuenta": "302010450",
+        "Telefono": "829-444-5566"
+      },
+      {
+        "id": 203,
+        "nombre": "Jorge",
+        "Apellido": "Toribio",
+        "Cuenta": "08098340534",
+        "Telefono": "829-345-0987"
+      },
+      {
+        "id": 204,
+        "nombre": "Berta",
+        "Apellido": "Luciano",
+        "Cuenta": "39840948208",
+        "Telefono": "849-987-1342"
+      },
+      {
+        "id": 205,
+        "nombre": "Marcelo",
+        "Apellido": "Sosa",
+        "Cuenta": "747597357487",
+        "Telefono": "829-575-1202"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "BHD",
+    "personas": [
+      {
+        "id": 301,
+        "nombre": "Pedro",
+        "Apellido": "Martinez",
+        "Cuenta": "505060700",
+        "Telefono": "849-222-1100"
+      },
+      {
+        "id": 302,
+        "nombre": "Mariano",
+        "Apellido": "Figueroa",
+        "Cuenta": "908509480389",
+        "Telefono": "809-555-8998"
+      },
+      {
+        "id": 303,
+        "nombre": "Yunior",
+        "Apellido": "Perdomo",
+        "Cuenta": "9749835894",
+        "Telefono": "809-535-8778"
+      },
+      {
+        "id": 304,
+        "nombre": "Fausto",
+        "Apellido": "Caminero",
+        "Cuenta": "3849385939",
+        "Telefono": "809-345-1242"
+      },
+      {
+        "id": 305,
+        "nombre": "Fernando",
+        "Apellido": "Guzman",
+        "Cuenta": "9594597943539",
+        "Telefono": "809-345-2020"
+      },
+      {
+        "id": 306,
+        "nombre": "Luisa",
+        "Apellido": "Martines",
+        "Cuenta": "201809809890",
+        "Telefono": "829-544-1212"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Scotiabank",
+    "personas": [
+      {
+        "id": 401,
+        "nombre": "Laura",
+        "Apellido": "Castillo",
+        "Cuenta": "708090100",
+        "Telefono": "809-999-0000"
+      },
+      {
+        "id": 402,
+        "nombre": "Carlos",
+        "Apellido": "Santos",
+        "Cuenta": "453758475873",
+        "Telefono": "829-555-3456"
+      },
+      {
+        "id": 403,
+        "nombre": "Marcia",
+        "Apellido": "Guerra",
+        "Cuenta": "845948509385",
+        "Telefono": "809-345-7887"
+      },
+      {
+        "id": 404,
+        "nombre": "Roberto",
+        "Apellido": "Cabrera",
+        "Cuenta": "94989357957",
+        "Telefono": "809-456-1202"
+      },
+      {
+        "id": 405,
+        "nombre": "Mildre",
+        "Apellido": "Sanchez",
+        "Cuenta": "980594059908",
+        "Telefono": "809-567-1212"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Progreso",
+    "personas": [
+      {
+        "id": 501,
+        "nombre": "Carlos",
+        "Apellido": "Vargas",
+        "Cuenta": "901020300",
+        "Telefono": "829-777-8899"
+      },
+      {
+        "id": 502,
+        "nombre": "Rafaelas",
+        "Apellido": "Juarez",
+        "Cuenta": "3729748974887",
+        "Telefono": "809-555-3412"
+      },
+      {
+        "id": 503,
+        "nombre": "Camila",
+        "Apellido": "Blanco",
+        "Cuenta": "8758749579475",
+        "Telefono": "829-235-1352"
+      },
+      {
+        "id": 504,
+        "nombre": "Yojaira",
+        "Apellido": "Torres",
+        "Cuenta": "859389288598",
+        "Telefono": "809-098-1234"
+      },
+      {
+        "id": 505,
+        "nombre": "Luna",
+        "Apellido": "Salina",
+        "Cuenta": "24096804958",
+        "Telefono": "849-555-0990"
+      },
+      {
+        "id": 506,
+        "nombre": "Maria",
+        "Apellido": "Hernandez",
+        "Cuenta": "9589090280209",
+        "Telefono": "809-555-4559"
+      }
+    ]
+  }
+]
